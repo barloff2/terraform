@@ -44,3 +44,7 @@ variable "ingress_ports_list" {
   description = "Lista de puertos de ingresos"
   type = list(number)
 }
+
+variable "access_key" {}
+
+variable "secret_key" {}
